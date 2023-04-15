@@ -22,7 +22,7 @@
         "Entry"
         {
         "MsmKey" = "8:_2B700CF55517BAC3141BC96DA76EA11D"
-        "OwnerKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+        "OwnerKey" = "8:_8D709191044948BA858001934E128930"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -40,37 +40,37 @@
         "Entry"
         {
         "MsmKey" = "8:_70482240ABF620458494B2761420975D"
-        "OwnerKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+        "OwnerKey" = "8:_8D709191044948BA858001934E128930"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8D709191044948BA858001934E128930"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_95885B2C76F43BD24080C13026604746"
-        "OwnerKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+        "OwnerKey" = "8:_8D709191044948BA858001934E128930"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_BECDE7A2B181C169102DC91DA8E5B678"
-        "OwnerKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+        "OwnerKey" = "8:_8D709191044948BA858001934E128930"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_DF6551E3C37DB2226FA93B344D2E2B91"
-        "OwnerKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+        "OwnerKey" = "8:_8D709191044948BA858001934E128930"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_DF6551E3C37DB2226FA93B344D2E2B91"
         "OwnerKey" = "8:_95885B2C76F43BD24080C13026604746"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -82,7 +82,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+        "OwnerKey" = "8:_8D709191044948BA858001934E128930"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -127,6 +127,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -143,6 +151,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -535,7 +559,7 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A6214540D6FA453D82BB01B1E1BFB391"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_67857B42CD7945E0BDB02256F9A5C83D"
             {
             "Name" = "8:RV-Convertor"
             "Arguments" = "8:"
@@ -543,13 +567,13 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+            "Target" = "8:_8D709191044948BA858001934E128930"
             "Folder" = "8:_B9D96B0393A7476783EC855731088629"
             "WorkingFolder" = "8:_CA7E680AA67A4863927ABA6A46975C60"
             "Icon" = "8:_426360DCC30A4F04AD340DF6B109DF58"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_D5041B30BF954299A8F74ADABFE45488"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_AF4A531499CD4F85B272DE85A81504EE"
             {
             "Name" = "8:RV-Convertor"
             "Arguments" = "8:"
@@ -557,7 +581,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+            "Target" = "8:_8D709191044948BA858001934E128930"
             "Folder" = "8:_5B2C351BD1B94D5796E074043D92630C"
             "WorkingFolder" = "8:_CA7E680AA67A4863927ABA6A46975C60"
             "Icon" = "8:_426360DCC30A4F04AD340DF6B109DF58"
@@ -962,7 +986,7 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E480822BA7E14CE3BCAB9EFB5A1CEDD3"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_8D709191044948BA858001934E128930"
             {
             "SourcePath" = "8:..\\RV-Convertor\\obj\\Release\\RV-Convertor.exe"
             "TargetName" = "8:"

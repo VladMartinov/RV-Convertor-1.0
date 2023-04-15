@@ -103,7 +103,7 @@ namespace RV_Convertor
             // Selection of available methods
             if (formatImg.Contains(typeInpFile))
             {
-                comboBoxType.Items.Add("jpg (jpeg)");
+                comboBoxType.Items.Add("jpg");
                 comboBoxType.Items.Add("bmp");
 
                 comboBoxType.Enabled = true;
